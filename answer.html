@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Answer</title>
+  </head>
+  <body>
+    <h2>Answer</h2>
+    <p>{{ answer }}</p>
+
+    <h3>Retrieved Contexts</h3>
+    {% for c in contexts %}
+    <p><strong>Chunk {{ loop.index }}:</strong> {{ c[:400] }}...</p>
+    {% endfor %}
+    <a href="/">Upload New PDF</a>
+  </body>
+</html>
