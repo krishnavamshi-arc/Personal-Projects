@@ -5,3 +5,8 @@ faiss-cpu
 torch
 numpy
 langchain
+os
+re
+json
+requests
+
